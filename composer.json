@@ -1,0 +1,32 @@
+{
+    "name": "stermedia/stermedia-components-bundle",
+    "type": "symfony-bundle",
+    "description": "Components bundle for Symfony2 projects",
+    "keywords": ["stermedia", "components", "symfony2", "bundle"],
+    "homepage": "http://github.com/Stermedia/StermediaComponentsBundle",
+
+    "authors": [
+        {
+            "name": "Stermedia Team",
+            "homepage": "http://stermedia.eu"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Stermedia\\Bundle\\ComponentsBundle": ""
+        }
+    },
+
+    "target-dir": "Stermedia/Bundle/ComponentsBundle",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-master"
+        }
+    }
+}
