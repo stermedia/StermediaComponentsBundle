@@ -8,15 +8,15 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Stermedia\CommonBundle;
+namespace Stermedia\Bundle\ComponentsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Stermedia Common bundle
+ * Stermedia Components bundle
  *
  * @author  Jakub Paszkiewicz <paszkiewicz.jakub@gmail.com>
  */
-class StermediaCommonBundle extends Bundle
+class StermediaComponentsBundle extends Bundle
 {
 }
