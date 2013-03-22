@@ -1174,15 +1174,15 @@ body .ui-tooltip {
 /* Overlays */
 .ui-widget-overlay {
   background: @jquery-ui-modal-overlay-bg;
-  opacity: ".@{jquery-ui-modal-overlay-opacity}";
-  filter: Alpha(Opacity=@jquery-ui-modal-overlay-opacity);
+  opacity: %(~".%s", @jquery-ui-modal-overlay-opacity);
+  filter:  %(~"Alpha(Opacity=%s)", @jquery-ui-modal-overlay-opacity);
 }
 .ui-widget-shadow {
   margin: @jquery-ui-drop-shadow-top-offset 0 0 @jquery-ui-drop-shadow-left-offset;
   padding: @jquery-ui-drop-shadow-thickness;
   background: @jquery-ui-drop-shadow-bg;
-  opacity: ".@{jquery-ui-drop-shadow-opacity}";
-  filter: Alpha(Opacity=@jquery-ui-drop-shadow-opacity);
+  opacity: %(~".%s", @jquery-ui-drop-shadow-opacity);
+  filter: %(~"Alpha(Opacity=%s)", @jquery-ui-drop-shadow-opacity);
   -moz-border-radius: @jquery-ui-drop-shadow-corners;
   -khtml-border-radius: @jquery-ui-drop-shadow-corners;
   -webkit-border-radius: @jquery-ui-drop-shadow-corners;
